@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/login.css';
 import Logo from '../assets/Logo/Logo.png'
+import Navbar from '../components/navbar';
 const Login = () => {
   return (
     <div className='form-container'>
@@ -18,7 +19,6 @@ const Login = () => {
     <button className='button'>Login</button>
     <div className='note'>Not a member?Signup</div>
     </div>
-    
   )
 }
 
