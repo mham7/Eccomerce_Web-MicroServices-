@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/login.css';
 import Logo from '../assets/Logo/Logo.png'
 import Navbar from '../components/navbar';
-const Login = () => {
+const Loginpage = () => {
   return (
     <div className='form-container'>
     <div className='logo'>
@@ -22,4 +22,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Loginpage
