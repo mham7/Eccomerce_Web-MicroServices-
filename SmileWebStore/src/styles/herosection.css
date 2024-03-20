@@ -23,7 +23,6 @@
     0px 10px 15px rgba(0, 0, 0, 0.1); /* Outer shadow */
 }
 .hero-text{
-  
     align-self: left;
     justify-content: center;
     font-size: 25px;
@@ -71,3 +70,62 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .heropic img {
+        height: 200px;
+        width: 50%;
+    }
+    
+    .hero-detail{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 200px;
+        margin-top: 10px;
+        margin:20px;
+      }
+    .hero-text{
+        align-self: left;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        color: #000000;
+    }
+    .hero-text1{
+       
+        font-size: 100; 
+        align-self: left;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        color: orange
+    }
+    .hero-textdetail{
+        font-size: 100; 
+        align-self: left;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+        color: rgb(0, 0, 0);
+    }
+    
+    .hero-button{
+        margin-top: 10px;
+        align-self: left;
+        width:100px;
+        height: auto;
+        padding: 10px;
+        background-color: orange;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 24;
+        color:white ;
+        border-radius: 4px;
+        box-shadow: 0px 5px 10px rgba(240, 239, 239, 0.2);
+        text-align: center;
+    }
+    
+  }
