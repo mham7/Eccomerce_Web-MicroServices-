@@ -1,17 +1,20 @@
 .form-container {
-    display: flex;
-    margin-top: 70px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
-    
-  }
+  display: flex;
+  justify-content: center; /* Horizontally centers items */
+  align-items: center; /* Vertically centers items */
+  flex-direction: column; /* Arranges items in a column */
+  
+   /* Added border for visibility */
+  padding: 20px; /* Optional: Add padding for spacing */
+  height: 100vh; /* Set container height to full viewport height */
+  box-sizing: border-box; /* Include padding and border in height calculation */
+}
 
-.logo img{
-    margin-top: 80px;
-    width: 100px;
-    height: 100px;
+.logotitle{
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 400;
+    color: orange;   
 }
 
 .textfield {
@@ -43,7 +46,7 @@
     margin-top: 25px;
     border: 1px solid #ddd;
     border-radius: 4px; 
-    background-color: #ff8264;
+    background-color: orange;
     padding: 10px;
     font-family: sans-serif;
     font-size: 20px;
@@ -55,7 +58,7 @@
   .note{
     margin-top: 40px;
     font-size: medium;
-    color: #ff8264
+    color: orange
   }
   .note:hover{
     cursor: pointer;
