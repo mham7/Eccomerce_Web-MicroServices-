@@ -1,7 +1,7 @@
 .hero-section {
     display: flex;
     width: 100%; 
-    height: 500px; 
+    height: 300px; 
   
   }
   .hero-detail{
@@ -13,14 +13,20 @@
     margin:80px;
   }
   .heropic img{
-    height: 500px;
+    height: 400px;
     width: 100%;
-    margin-top: 20px;
-    padding: 25px;
+    padding: 5px;
     border-radius: 35%; 
+    justify-self: center;
     box-shadow:
     0px 5px 7px rgba(0, 0, 0, 0.3),  /* Inner shadow */
     0px 10px 15px rgba(0, 0, 0, 0.1); /* Outer shadow */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    min-height: 100%
+
 }
 .hero-text{
     align-self: left;
@@ -49,7 +55,13 @@
     font-family: "Poppins", sans-serif;
     color: rgb(0, 0, 0);
 }
-
+.hero-image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
 .hero-button{
     margin-top: 20px;
     align-self: left;

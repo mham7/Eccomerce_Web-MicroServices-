@@ -4,16 +4,22 @@
     height: 110px;
     background-color: rgb(255, 255, 255);
     border-bottom: 0.5px solid rgb(231, 228, 228);
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-bottom: 0.5px;
 }
-.logo img{
+.logo{
+    color: orange;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
     width: 65px;
-    height: 65px;
-    flex: start;
-    margin-top: 20px;
-    padding: 20px;
+    height: 65px; 
+    padding: 30px;
+    text-align: center;
+vertical-align: middle;
+line-height: 65px;    
+
 }
 .items{
     display: flex;
@@ -50,8 +56,8 @@
     height: 40px;
     justify-content: space-between;
     position: relative;
-    gap: 20px;
-    padding-right: 10px;
+    gap: 40px;
+    padding-right: 20px;
   }
   .icon:hover{
     cursor: pointer;
