@@ -1,5 +1,22 @@
 .homepage {
-    display: flex;
-    flex-direction: column; 
-    min-height: 100vh; 
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between; /* Align items with space in between */
+}
+
+.homepage > * {
+  margin-bottom: 20px; /* Adjust the spacing between child elements */
+}
+.carousel-image {
+  width: 100%;
+  height: 300px; /* Fixed height of 300px */
+  /* Maintain aspect ratio and cover entire space */
+}
+
+.carousel-container {
+  margin-top: 100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+}

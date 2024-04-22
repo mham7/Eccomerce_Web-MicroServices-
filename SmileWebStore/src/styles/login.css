@@ -16,13 +16,35 @@
     font-weight: 400;
     color: orange;   
 }
+.outlined-textfield {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42); /* Bottom border */
+  padding: 10px;
+  outline: none;
+  background-color: transparent; /* Transparent background */
+}
 
+.placeholder {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  transition: top 0.3s, font-size 0.3s;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.42); /* Placeholder text color */
+}
+
+.outlined-textfield:focus + .placeholder,
+.outlined-textfield:not(:placeholder-shown) + .placeholder {
+  top: -10px;
+  font-size: 12px;
+}
 .textfield {
     width: 300px;
     margin-top: 25px;
     border: 1px solid #ddd;
     border-radius: 4px; 
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 10px;
     font-family: sans-serif;
     font-size: 16px;
