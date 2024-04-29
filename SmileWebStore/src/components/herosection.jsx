@@ -8,7 +8,7 @@ const Herosection = () => {
     <div className='hero-text'>NEW COLLECTION</div>
     <div className='hero-text1'>SMILE CLOTHING</div>
     <div className='hero-textdetail'>Unleash your inner smile with the vibrant colors and playful designs of the Smile Collection. Dress with confidence and express yourself in a way that makes you feel joyful.</div>
-    <butto className='hero-button'>SHOP NOW</butto>
+    <button className='hero-button'>SHOP NOW</button>
     </div>
      <div className='heropic'>
       <img src={Hero} alt="Shopping"/>

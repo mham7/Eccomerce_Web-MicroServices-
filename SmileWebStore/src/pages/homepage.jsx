@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar';
 import Herosection from '../components/herosection';
 import DemoCarousel from '../components/homepagecarousel';
+import Footer from '../components/footer';
 import Endsection from './endsection';
 const Homepage = () => {
   return (
@@ -9,7 +10,7 @@ const Homepage = () => {
     <Navbar></Navbar>
     <Herosection/>
    <DemoCarousel/>
-   <Endsection/>
+    <Footer/>
     </div>
   )
 }

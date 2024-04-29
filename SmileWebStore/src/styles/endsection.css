@@ -1,12 +1,27 @@
 .end-section {
-    display: flex;
-    width: 100%; 
-    height: 400px; 
-    margin-bottom: 35px;
-    justify-content: center;
-    align-items: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Limiting the maximum width to ensure only 2 cards per row */
+  margin: 0 auto; /* Centering the grid */
+}
 
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure each card takes up the full height of its container */
+}
+
+.card-media {
+  flex: 1; /* Let the image take up remaining space */
+  object-fit: cover; /* Ensure the image covers the entire card area */
+}
   .card {
     transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth transition with custom bezier function */
     cursor: pointer; /* Change cursor to pointer on hover */

@@ -7,14 +7,14 @@ import Slide2 from '../assets/Hero/Carousel/slide2.jpg';
 import Slide3 from '../assets/Hero/Carousel/slide3.jpg';
 const DemoCarousel = () => {
     return (
-        <div class='midsection'>
-        <div class="image-container">
+        <div className='midsection'>
+        <div className="image-container">
           <img src={s} alt="Shopping"/>
-          <div class="text-block">
+          <div className="text-block">
             <h2>Smile</h2>
             <p>Creating Smiles for everyone</p>
           </div>
-          <button class="c-button">Smile Now</button>
+          <button className="c-button">Smile Now</button>
         </div>
       </div>
       
